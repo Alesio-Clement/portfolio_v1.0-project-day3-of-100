@@ -390,17 +390,119 @@
         </section>
 
             <section id="portfolio">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat doloremque omnis officia ea
-                    excepturi nesciunt velit adipisci cum id facilis cupiditate dolore atque ab natus quisquam quos,
-                    asperiores dolores temporibus. Animi magnam dolorem modi, ab nihil veritatis incidunt vitae! Minima
-                    nostrum officiis sequi, tempora veniam soluta aspernatur labore quia natus?</p>
+                <ul class="cats-filter" id="portfolio-filter">
+                    <li><a href="" class="current transition" data-filter="*">All</a></li>
+                    <li><a href="" class="transition" data-filter=".webdesign">Web Design</a></li>
+                    <li><a href="" class="transition" data-filter=".photography">graphic Design</a></li>
+                    <li><a href="" class="transition" data-filter=".illustration">Illustratration</a></li>
+                    <li><a href="" class="transition" data-filter=".print">Print</a></li>
+                    <li><a href="" class="transition" data-filter=".animation">animation</a></li>
+                </ul>
+
+                <div class="extra-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id maxime!</div>
+
+                <ul id="portfolio-list">
+                    <li class="illustration print">
+                        <a href="" class="folio">
+                            <img src="images/work3.jpg" alt="">
+                            <h2 class="title"> Hello good bye</h2>
+                             <span class="categorie">Print / illustration</span>
+                        </a>
+                    </li>
+
+                    <li class="webdesign">
+                        <a href="" class="folio">
+                            <img src="images/3-thumb.jpg" alt="">
+                            <h2 class="title"> snow time</h2>
+                             <span class="categorie">web design</span>
+                        </a>
+                    </li>
+
+                    <li class="photography">
+                        <a href="" class="folio">
+                            <img src="images/2-thumb.jpg" alt="">
+                            <h2 class="title"> help us</h2>
+                             <span class="categorie">photography</span>
+                        </a>
+                    </li>
+
+                    <li class="animation print">
+                        <a href="" class="folio">
+                            <img src="images/4-thumb.jpg" alt="">
+                            <h2 class="title">lets animated</h2>
+                             <span class="categorie">print / animation</span>
+                        </a>
+                    </li>
+
+
+                    <li class="animation">
+                        <a href="" class="folio">
+                            <img src="images/5-thumb.jpg" alt="">
+                            <h2 class="title">come together</h2>
+                             <span class="categorie">animation</span>
+                        </a>
+                    </li>
+
+                    <li class="webdesign print">
+                        <a href="" class="folio">
+                            <img src="images/6-thumb.jpg" alt="">
+                            <h2 class="title">Come together</h2>
+                             <span class="categorie">webdesign / print</span>
+                        </a>
+                    </li>
+
+                    <li class="webdesign print">
+                        <a href="" class="folio">
+                            <img src="images/7-thumb.jpg" alt="">
+                            <h2 class="title">Black Bird</h2>
+                             <span class="categorie">webdesign / print</span>
+                        </a>
+                    </li>
+
+                    <li class="illustration">
+                        <a href="" class="folio">
+                            <img src="images/8-thumb.jpg" alt="">
+                            <h2 class="title">Revolution</h2>
+                             <span class="categorie">illustration</span>
+                        </a>
+                    </li>
+                </ul>
             </section>
 
             <section id="contact">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat doloremque omnis officia ea
-                    excepturi nesciunt velit adipisci cum id facilis cupiditate dolore atque ab natus quisquam quos,
-                    asperiores dolores temporibus. Animi magnam dolorem modi, ab nihil veritatis incidunt vitae! Minima
-                    nostrum officiis sequi, tempora veniam soluta aspernatur labore quia natus?</p>
+             <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.35853762287!2d36.70730756560587!3d-1.3028617889945362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!5e0!3m2!1sen!2ske!4v1592561870356!5m2!1sen!2ske" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+             </div>
+
+             <div class="contact-info">
+                 <h3 class="main-heading"><span>Contact info</span></h3>
+                 <ul>
+                     <li>Lorem ipsum dolor sit.</li>
+                     <li>Lorem ipsum dolor sit.</li>
+                     <li>Lorem ipsum dolor sit.</li>
+                     <li>Lorem ipsum dolor sit.</li>
+                 </ul>
+             </div>
+             <div class="contact-form">
+                 <h3 class="main-heading"><span>Lets get in touch</span></h3>
+                 <br>
+                 <form action="" id="contactform">
+                     <div class="form-group">
+                         <input type="text" id="name" class="form-control">
+                         <label for="name" class="form-control-placeholder">Your Name</label>
+                     </div>
+
+                     <div class="form-group">
+                        <input type="text" id="email" class="form-control">
+                        <label for="email" class="form-control-placeholder">Your Email</label>
+                    </div>
+
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="" cols="88" rows="7"></textarea>
+
+                    <input type="submit"name="submit" value="Send your message" class="button transition"  >
+                 </form>
+             </div>
             </section>
         
 

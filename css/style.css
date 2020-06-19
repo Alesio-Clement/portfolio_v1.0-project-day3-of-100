@@ -51,6 +51,8 @@ body{
     background-image: url(../images/bg-body.jpg);
 }
 
+a,a:hover{text-decoration: none !important;}
+
 #container
 {
     margin: 0 auto;
@@ -305,5 +307,175 @@ ul.socialicons{
     color: #555;
     line-height: 20px;
     margin-left: 7px;
+
+}
+
+#portfolio
+{
+    padding: 30px;
+}
+
+
+#portfolio-list
+{
+    width: 820px;
+    overflow: hidden;
+}
+
+
+#portfolio-list li
+{
+    float: left;
+    margin-right: 25px;
+    text-align: center;
+    background-color: #fbfbfb;
+    border-bottom: 1px solid e5e5e5;
+    height: 185px;
+    margin-bottom: 30px;
+    width: 180px;
+}
+
+
+#portfolio-list li:hover{
+    border-bottom: 1px solid#cf455c;
+    height: 185px;
+}
+
+
+#portfolio-list img{
+    background-color: white;
+    height: 120px;
+    width: 185px;
+}
+
+
+#portfolio-list li:hover .title{
+    color: #cf455c;
+}
+
+#portfolio-list li .title{
+    color: #cf455c;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #3a3a3a;
+}
+
+#portfolio-list li .categorie{
+    font-size: 11px;
+    line-height: 25px;
+    color: #999;
+}
+
+.cats-filter{
+    border-bottom: 1px solid #ededed;
+    padding: 15px 0;
+    overflow: hidden;
+}
+
+.cats-filter li a{
+    float: left;
+    margin-right: 7px;
+    color: #fff;
+    background-color: #777;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+
+.cats-filter li a.current{
+    background-color: #cf455c;
+    
+}
+
+
+.extra-text{
+   text-transform: uppercase;
+   margin-bottom: 20px; 
+   color: #333;
+   
+}
+
+#contact{
+    overflow: hidden;
+
+}
+
+.contact-info, .contact-form{
+float: left;
+padding: 0 20px;
+}
+
+.contact-info{
+    width: 250px;
+}
+
+.contact-form{
+    width: 530px;
+}
+
+.contact-info ul{
+    float: left;
+    border-left: 1px solid #cf455c;
+    padding-left: 18px;
+}
+
+.contact-info ul li{
+   
+    color: #777;
+    font-size: 13px;
+    overflow: hidden;
+   line-height: 20px;
+} 
+
+#map{
+    margin-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+form .input, form textarea{
+    box-shadow: inset 0 5px 17px -13px #ccc;
+    background: #fdfdfd;
+    border-radius: 1px solid #cedd4a;
+    border-radius: 2px;
+    color: #777;
+    font-size: 12px;
+    height: 30px;
+    outline: none;
+    padding:7px 10px;
+    resize: none;
+    width: 97%;
+}
+
+form textarea{
+    height: 112px;
+    line-height: 18px;
+    margin-bottom: 0;
+    padding-top: 8px;
+}
+
+
+form label{
+    display: block;
+    color: #999;
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+
+
+.button{
+    color: #ccc;
+    background-color: #cf455c;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 13px;
 
 }
